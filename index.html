@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Call Center Dashboard</title>
+    <link rel="icon" type="image/jpeg" href="./assets/cnb-favicon.jpg" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <div class="page-shell">
+      <section class="panel mode-panel reveal" id="mode-switch" aria-live="polite"></section>
+
+      <header class="hero panel reveal" id="hero">
+        <p class="eyebrow">Loading dashboard...</p>
+        <h1>Call Center Dashboard</h1>
+      </header>
+
+      <section class="panel analytics-section reveal" id="analytics" aria-live="polite"></section>
+
+      <section class="section-head reveal" id="kpis-head"></section>
+      <section class="kpi-grid reveal" id="kpis" aria-live="polite"></section>
+
+      <section class="section-head reveal" id="trends-head"></section>
+      <section class="trend-grid reveal" id="trends" aria-live="polite"></section>
+
+      <section class="section-head reveal" id="category-head"></section>
+      <section class="panel reveal" id="category-summary" aria-live="polite"></section>
+
+      <section class="panel reveal" id="table" aria-live="polite"></section>
+    </div>
+
+    <script type="module" src="./app.js"></script>
+  </body>
+</html>

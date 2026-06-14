@@ -1,0 +1,10 @@
+__pycache__/
+.chrome-headless/
+.chrome-headless-category/
+*.pyc
+
+data/*.json
+!data/.gitkeep
+
+uploads/*
+!uploads/.gitkeep
